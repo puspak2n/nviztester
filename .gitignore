@@ -1,0 +1,18 @@
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/secrets.json
+.streamlit/credentials.toml
+
+# But allow example files
+!.streamlit/secrets.toml.example
+!.streamlit/config.toml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# API Keys
+**/api_keys.py
+**/credentials.py
+EOF.streamlit/secrets.toml 
